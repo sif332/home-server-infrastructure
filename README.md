@@ -12,12 +12,15 @@ That’s why I needed to check how much each cloud provider costs.
 For my projects, I usually dockerize the apps into containers and deploy them, so I need to find services that allow me to deploy and run containerized apps on them. I also want them to run 24/7 without downtime, so it will be 730 hours/month on average. The basic spec that I want is 1 CPU and 1-2 GB of RAM.
 
 The first one is **Azure App Services** and the price is around 460 baht/month.
+
 !["AzureAppService"](https://i.imgur.com/MZ2ldaK.png)
 
 The second one is **AWS Fargate** and the price is around 1250 baht/month.
+
 !["Fargate"](https://i.imgur.com/wM1drkV.png)
 
 The last one is **Google Cloud Run** and the price is around 2000 baht/month.
+
 !["CloudRun"](https://i.imgur.com/8CkxGM5.png)
 
 You can see that the cheapest service, which is Azure App Service, costs me around 460 baht/month or **5520 baht/year**. Moreover, this price does not include Database service.
@@ -42,6 +45,7 @@ Therefore, Cloudflare Tunnel is the solution for the Home Server Infrastructure.
 
 ## WebChat Infrastructure Diagram
 !["Infrastructure Diagram"](https://i.imgur.com/0TjD3yp.png)
+
 This diagram shows how my **WebChat** application connects with the public internet.
 
 When users go to https://webchat.xaiphersk.com, their browser will go to an IP of a remote server (CloudFlare), then the remote server will forward the request to the Cloudflare Tunnel docker container that is running on my machine. The Cloudflare Tunnel container will forward it to a local application with the IP and Port that I set on this page. 
