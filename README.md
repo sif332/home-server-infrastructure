@@ -36,6 +36,7 @@ Next, I found out that **my ISP does NAT on my public IP**, so this public IP is
 Luckily, while I was scrolling through my Facebook feed, I found **Supadej Suthiphongkanasai** writing about **Cloudflare Tunnel**. Traditionally, port forwarding can cause security threats to my home network. Moreover, if I want to use the HTTPS protocol, I must set up and buy an SSL certificate by myself. Whereas Cloudflare Tunnel allows exposing local applications to the public internet with the HTTPS protocol and without firewall or NAT issues.
 
 Therefore, Cloudflare Tunnel is the solution for the Home Server Infrastructure. You can follow this YouTube tutorial for setting up Cloudflare Tunnel.
+
 [![FireshipCloudOverflow](https://i.ytimg.com/vi/ey4u7OUAF3c/hq720.jpg?sqp=-oaymwEpCOgCEMoBSFryq4qpAxsIARUAAIhCGAHYAQHiAQwIGhACGAYgATgBQAE=&rs=AOn4CLBQ2yL7uH9TgEiga0suP0rhQD9XEg)](https://www.youtube.com/watch?v=ey4u7OUAF3c&t=53s)
 
 
