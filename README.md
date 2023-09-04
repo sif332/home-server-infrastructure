@@ -1,5 +1,7 @@
 # Home Server Infrastructure
 
+[Check the content on the GitHub for better experience](https://github.com/sif332/home-server-infrastructure)
+
 ## Why did I develop Home Server?
 From my internship, I used to set up a CI/CD pipeline for a team project on GitHub Actions for deploying the frontend on **Azure Blob Storage** and the backend on **Azure App Service**. 
 I saw how easy it was to deploy and auto-scale docker containerized apps written in any language and run 24/7 without downtime. This experience made me want to deploy my personal project on the cloud.
