@@ -60,11 +60,11 @@ Moreover, I set up a **self-hosted runner** on my local machine so that I can do
 https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions
 
 Lastly, this is my mini PC spec and price. I bought a **BMAX B2 Pro Mini PC**. 
-CPU: Intel Celeron J4105 (4 cores) 
-RAM: 8GB 
-Storage: 256GB 
-OS: Windows 11 
-Price: 4500 baht
+* CPU: Intel Celeron J4105 (4 cores) 
+* RAM: 8GB 
+* Storage: 256GB 
+* OS: Windows 11 
+* Price: 4500 baht
 The CPU does not support AVX Instruction set, so it cannot run MongoDB V5 and I need to migrate the database to PostgreSQL.
 
 I thought the price was appropriate for me and it was a one-time payment and I can deploy many docker containers without worrying about cost.
